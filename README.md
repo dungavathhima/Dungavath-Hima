@@ -1,7 +1,4 @@
-
-
-
-
+#include<iostream>
 #include<iostream>
 using namespace std;
 bool checkPrime(int n);
@@ -18,7 +15,6 @@ int main() {
             }
         }
     }
-
     if (!flag)
       cout << n << " can't be expressed as sum of two prime numbers.";
     return 0;
@@ -38,6 +34,5 @@ bool checkPrime(int n)
             }
         }
     }
-
     return isPrime;
 }
